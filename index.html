@@ -45,7 +45,11 @@
       }
     </style>
   </head>
-  <link rel="shortcut icon" href="./images/icons/bycicle.png" type="image/x-icon">
+  <link
+    rel="shortcut icon"
+    href="./images/icons/bycicle.png"
+    type="image/x-icon"
+  />
   <body class="font-poppins">
     <!-- header -->
     <header class="container mx-auto px-2">
@@ -113,10 +117,10 @@
         <div class="carousel w-full rounded-lg">
           <div id="slide1" class="carousel-item relative w-full bg-primary">
             <!-- slide 1 -->
-            <div class="lg:flex items-center justify-between p-28">
+            <div class="lg:flex items-center justify-between p-10 md:p-28">
               <!-- slide text -->
               <div class="space-y-5 mb-10">
-                <h1 class="text-6xl font-bold">
+                <h1 class="text-4xl md:text-6xl font-bold">
                   Ride-on R15 V4 <br />
                   with Smile
                 </h1>
@@ -145,10 +149,10 @@
           </div>
           <div id="slide2" class="carousel-item relative w-full bg-primary">
             <!-- slide 2 -->
-            <div class="lg:flex items-center justify-between p-28">
+            <div class="lg:flex items-center justify-between p-10 md:p-28">
               <!-- slide text -->
               <div class="space-y-5 mb-10">
-                <h1 class="text-6xl font-bold">
+                <h1 class="text-4xl md:text-6xl font-bold">
                   Ride-on R15 V4 <br />
                   with Smile
                 </h1>
@@ -177,10 +181,10 @@
           </div>
           <div id="slide3" class="carousel-item relative w-full bg-primary">
             <!-- slide 3 -->
-            <div class="lg:flex items-center justify-between p-28">
+            <div class="lg:flex items-center justify-between p-8 md:p-28">
               <!-- slide text -->
               <div class="space-y-5 mb-10">
-                <h1 class="text-6xl font-bold">
+                <h1 class="text-4xl md:text-6xl font-bold">
                   Ride-on R15 V4 <br />
                   with Smile
                 </h1>
@@ -210,8 +214,111 @@
         </div>
       </div>
     </header>
+
     <!-- main -->
-    <main></main>
+    <main class="container mx-auto px-2">
+      <!-- featured bike -->
+      <section class="mt-40 mb-32">
+        <!-- fetured text -->
+        <div class="text-center mb-12">
+          <h1 class="text-5xl font-semibold">Fetured Bikes In This Year</h1>
+          <p class="text-color-primary">Best bike collection</p>
+          <hr class="border-b-2 border-b-color-primary w-24 mx-auto" />
+        </div>
+        <!-- featured bike image -->
+        <div class="grid grid-cols-1 justify-center gap-10 lg:grid-cols-3">
+          <img
+            class="mx-auto grayscale"
+            src="./images/others/feature-bike.png"
+            alt=""
+          />
+          <img class="mx-auto" src="./images/others/feature-bike.png" alt="" />
+          <img
+            class="mx-auto grayscale"
+            src="./images/others/feature-bike.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- latest news section -->
+      <section>
+        <!-- latest text -->
+        <div class="text-center mb-12">
+          <h1 class="text-5xl font-semibold">latest News</h1>
+        </div>
+        <!-- latest card container -->
+        <div class="grid grid-cols-1 gap-5 lg:grid-cols-3">
+          <!-- latest card 1-->
+          <div
+            class="card card-compact bg-base-100 w-full shadow-xl border-2 p-5"
+          >
+            <figure>
+              <img class="w-full" src="./images/others/latest1.png" alt="bike" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-2xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="text-gray-400 mb-9">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn bg-color-primary p-15 text-white font-bold">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- latest card 2-->
+          <div
+            class="card card-compact bg-base-100 w-full shadow-xl border-2 p-5"
+          >
+            <figure>
+              <img class="w-full" src="./images/others/latest2.png" alt="bike" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-2xl font-semibold">
+                Motorcycles & Scooters
+              </h2>
+              <p class="text-gray-400 mb-9">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn bg-transparent p-15 text-color-primary border-color-primary font-bold">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- latest card 3-->
+          <div
+            class="card card-compact bg-base-100 w-full shadow-xl border-2 p-5"
+          >
+            <figure>
+              <img class="w-full" src="./images/others/latest3.png" alt="bike" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-2xl font-semibold">
+                2021 Honda CBR500R
+              </h2>
+              <p class="text-gray-400 mb-9">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                fermentum amet faucibus sed id nisi lectus at.
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn bg-transparent p-15 text-color-primary border-color-primary font-bold">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- footer -->
     <footer></footer>
   </body>
